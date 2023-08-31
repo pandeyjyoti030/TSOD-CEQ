@@ -141,9 +141,14 @@
 table {
   /* font-family: arial, sans-serif; */
   border-collapse: collapse;
+  border: 1px solid #dddddd;
   width: 100%;
   margin-top: 16px;
   /* text-align: center; */
+}
+
+.tr{
+  border: 1px solid #dddddd;
 }
 
 td,

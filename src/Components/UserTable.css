@@ -1,31 +1,36 @@
-
+.mainDiv{
+    /* background-color: red; */
+    margin-top: 30px;
+  }
+ 
+ 
 .buttons1{
     color: rgb(94, 216, 94);
     opacity: 0.6;
-
+ 
 }
 .buttons2{
     color: rgb(252, 50, 0);
     opacity: 0.6;
     margin-left: 5px;
-
+ 
 }
 .button{
     display: flex;
     align-items: center;
 }
-
+ 
 body.active-modal {
     overflow-y: hidden;
 }
-
+ 
 .btn-modal {
     padding: 10px 20px;
     display: block;
     margin: 100px auto 0;
     font-size: 18px;
 }
-
+ 
 .modal, .overlay {
     width: 100vw;
     height: 100vh;
@@ -35,7 +40,7 @@ body.active-modal {
     bottom: 0;
     position: fixed;
 }
-
+ 
 .overlay {
     background: rgba(49,49,49,0.8);
 }
@@ -51,14 +56,14 @@ body.active-modal {
     max-width: 600px;
     min-width: 300px;
 }
-
+ 
 .close-modal {
     position: absolute;
     top: 10px;
     right: 10px;
     padding: 5px 7px;
 }
-
+ 
 #input{
     height: 30px;
     /* border-style: initial; */
@@ -69,9 +74,41 @@ body.active-modal {
 #button-inmodel{
     height: 25px;
     margin-top: 10px;
-    
-    
+   
+   
 }
 .modal-div{
     margin: 30px;
+}
+#approve{
+    /* background-color: rgb(78, 245, 78); */
+    background-color: #45f47c;
+    padding: 4px;
+}
+#notapprove{
+    /* background-color: rgb(246, 76, 50); */
+    background-color: #ff5a5a;
+    padding: 4px;
+}
+.table{
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.table td{
+    background-color: white;
+    width: fit-content;
+    text-align: center;
+    height: 40px;
+    opacity: 0.8;
+    padding: 6px;
+ 
+}
+.table th{
+    background-color:#D9D9DC;
+    width: fit-content;
+    text-align: center;
+    height: 40px;
+    opacity: 0.8;
+    padding: 6px;
+ 
 }
