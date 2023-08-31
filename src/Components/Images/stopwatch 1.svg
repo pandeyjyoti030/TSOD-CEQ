@@ -1,0 +1,14 @@
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="stopwatch 1" clip-path="url(#clip0_3215_7427)">
+<g id="Group">
+<path id="Vector" d="M11.5 0.5L15.5 4.5" stroke="#E1E7F0" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M7 5.5V8.5" stroke="#E1E7F0" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M7 15.5C10.5899 15.5 13.5 12.5899 13.5 9C13.5 5.41015 10.5899 2.5 7 2.5C3.41015 2.5 0.5 5.41015 0.5 9C0.5 12.5899 3.41015 15.5 7 15.5Z" stroke="#E1E7F0" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_3215_7427">
+<rect width="16" height="16" fill="white"/>
+</clipPath>
+</defs>
+</svg>

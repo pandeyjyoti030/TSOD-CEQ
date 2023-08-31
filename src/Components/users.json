@@ -1,0 +1,551 @@
+[
+    {
+        "avatar_url" : "https://th.bing.com/th/id/R.49376b553f3b5f5b67409592744e5579?rik=WzvpBRDluxLgBg&pid=ImgRaw&r=0",
+        "resource_name" : "Jack Muller",
+        "resource_email" : "jack.muller@cloudeq.com",
+        "designation": "Full Stack Developer",
+        "team" : "Observability",
+        "allocation" : {
+            "logged_hours" : 22,
+            "planned_hours" : 32,
+            "available_hours" : 8
+        },
+        "project_allocation": [
+            {
+                "project_name": "Renaissance",
+                "planned_hours": 20,
+                "logged_hours": 15
+            },
+            {
+                "project_name": "FinOps",
+                "planned_hours": 10,
+                "logged_hours": 5
+            },
+            {
+                "project_name": "Gladarma",
+                "planned_hours": 2,
+                "logged_hours": 2
+            }
+        ],
+        "skills" : [
+            {
+                "skill" : "Automation",
+                "level" : {
+                    "skill_assessment" : "High",
+                    "manager_assessment": "High"
+                }
+            },
+            {
+                "skill" : "Observability",
+                "level" : {
+                    "skill_assessment" : "High",
+                    "manager_assessment": "High"
+                }
+            },
+            {
+                "skill" : "FinOps",
+                "level" : {
+                    "skill_assessment" : "High",
+                    "manager_assessment": "High"
+                }
+            },
+            {
+                "skill" : "Cloud Migration",
+                "level" : {
+                    "skill_assessment" : "High",
+                    "manager_assessment": "High"
+                }
+            },
+            {
+                "skill" : "Azure",
+                "level" : {
+                    "skill_assessment" : "Medium",
+                    "manager_assessment": "Medium"
+                }
+            },
+            {
+                "skill" : "AWS",
+                "level" : {
+                    "skill_assessment" : "Medium",
+                    "manager_assessment": "Medium"
+                }
+            },
+            {
+                "skill" : "Cloud Security",
+                "level" : {
+                    "skill_assessment" : "Low",
+                    "manager_assessment": "Low"
+                }
+            }
+        ],
+        "certificates": [
+            {
+                "name": "DevOps Engineer Expert",
+                "provider": "Microsoft"
+            },
+            {
+                "name": "Az-104 (Administrator Associate)",
+                "provider": "Microsoft"
+            },
+            {
+                "name": "DevOps Engineer Expert",
+                "provider": "Microsoft"
+            }
+        ]
+    },
+    {
+        
+        "avatar_url" : "https://th.bing.com/th/id/R.49376b553f3b5f5b67409592744e5579?rik=WzvpBRDluxLgBg&pid=ImgRaw&r=0",
+        "resource_name" : "Emanuel Champlin III",
+        "resource_email" : "emanuel.champlin@cloudeq.com",
+        "designation": "Front-end Developer",
+        "team" : "Observability",
+        "allocation" : {
+            "logged_hours" : 22,
+            "planned_hours" : 32,
+            "available_hours" : 10
+        },
+        "project_allocation": [
+            {
+                "project_name": "Renaissance",
+                "planned_hours": 20,
+                "logged_hours": 15
+            },
+            {
+                "project_name": "FinOps",
+                "planned_hours": 10,
+                "logged_hours": 5
+            },
+            {
+                "project_name": "Gladarma",
+                "planned_hours": 2,
+                "logged_hours": 2
+            }
+        ],
+        "skills" : [
+            {
+                "skill" : "Automation",
+                "level" : {
+                    "skill_assessment" : "High",
+                    "manager_assessment": "High"
+                }
+            },
+            {
+                "skill" : "Observability",
+                "level" : {
+                    "skill_assessment" : "High",
+                    "manager_assessment": "High"
+                }
+            },
+            {
+                "skill" : "FinOps",
+                "level" : {
+                    "skill_assessment" : "High",
+                    "manager_assessment": "High"
+                }
+            },
+            {
+                "skill" : "Cloud Migration",
+                "level" : {
+                    "skill_assessment" : "High",
+                    "manager_assessment": "High"
+                }
+            },
+            {
+                "skill" : "Azure",
+                "level" : {
+                    "skill_assessment" : "Medium",
+                    "manager_assessment": "Medium"
+                }
+            },
+            {
+                "skill" : "AWS",
+                "level" : {
+                    "skill_assessment" : "Medium",
+                    "manager_assessment": "Medium"
+                }
+            },
+            {
+                "skill" : "Cloud Security",
+                "level" : {
+                    "skill_assessment" : "Low",
+                    "manager_assessment": "Low"
+                }
+            }
+        ],
+        "certificates": [
+            {
+                "name": "DevOps Engineer Expert",
+                "provider": "Microsoft"
+            },
+            {
+                "name": "Az-104 (Administrator Associate)",
+                "provider": "Microsoft"
+            },
+            {
+                "name": "DevOps Engineer Expert",
+                "provider": "Microsoft"
+            }
+        ]
+    },
+    {
+        "avatar_url" : "https://th.bing.com/th/id/R.49376b553f3b5f5b67409592744e5579?rik=WzvpBRDluxLgBg&pid=ImgRaw&r=0",
+        "resource_name" : "Brendan Kertzmann Phd",
+        "resource_email" : "brendan.kertzmann@cloudeq.com",
+        "designation": "Front-end Developer",
+        "team" : "Observability",
+        "allocation" : {
+            "logged_hours" : 22,
+            "planned_hours" : 32,
+            "available_hours" : 8
+        },
+        "project_allocation": [
+            {
+                "project_name": "Renaissance",
+                "planned_hours": 20,
+                "logged_hours": 15
+            },
+            {
+                "project_name": "FinOps",
+                "planned_hours": 10,
+                "logged_hours": 5
+            },
+            {
+                "project_name": "Gladarma",
+                "planned_hours": 2,
+                "logged_hours": 2
+            }
+        ],
+        "skills" : [
+            {
+                "skill" : "Automation",
+                "level" : {
+                    "skill_assessment" : "High",
+                    "manager_assessment": "High"
+                }
+            },
+            {
+                "skill" : "Observability",
+                "level" : {
+                    "skill_assessment" : "High",
+                    "manager_assessment": "High"
+                }
+            },
+            {
+                "skill" : "FinOps",
+                "level" : {
+                    "skill_assessment" : "High",
+                    "manager_assessment": "High"
+                }
+            },
+            {
+                "skill" : "Cloud Migration",
+                "level" : {
+                    "skill_assessment" : "High",
+                    "manager_assessment": "High"
+                }
+            },
+            {
+                "skill" : "Azure",
+                "level" : {
+                    "skill_assessment" : "Medium",
+                    "manager_assessment": "Medium"
+                }
+            },
+            {
+                "skill" : "AWS",
+                "level" : {
+                    "skill_assessment" : "Medium",
+                    "manager_assessment": "Medium"
+                }
+            },
+            {
+                "skill" : "Cloud Security",
+                "level" : {
+                    "skill_assessment" : "Low",
+                    "manager_assessment": "Low"
+                }
+            }
+        ],
+        "certificates": [
+            {
+                "name": "DevOps Engineer Expert",
+                "provider": "Microsoft"
+            },
+            {
+                "name": "Az-104 (Administrator Associate)",
+                "provider": "Microsoft"
+            },
+            {
+                "name": "DevOps Engineer Expert",
+                "provider": "Microsoft"
+            }
+        ]
+    },
+    {
+        "avatar_url" : "https://th.bing.com/th/id/R.49376b553f3b5f5b67409592744e5579?rik=WzvpBRDluxLgBg&pid=ImgRaw&r=0",
+        "resource_name" : "Mrs. Sherman Will",
+        "resource_email" : "sherman.will@cloudeq.com",
+        "designation": "Front-end Developer",
+        "team" : "Observability",
+        "allocation" : {
+            "logged_hours" : 22,
+            "planned_hours" : 32,
+            "available_hours" : 8
+        },
+        "project_allocation": [
+            {
+                "project_name": "Renaissance",
+                "planned_hours": 20,
+                "logged_hours": 15
+            },
+            {
+                "project_name": "FinOps",
+                "planned_hours": 10,
+                "logged_hours": 5
+            },
+            {
+                "project_name": "Gladarma",
+                "planned_hours": 2,
+                "logged_hours": 2
+            }
+        ],
+        "skills" : [
+            {
+                "skill" : "Automation",
+                "level" : {
+                    "skill_assessment" : "High",
+                    "manager_assessment": "High"
+                }
+            },
+            {
+                "skill" : "Observability",
+                "level" : {
+                    "skill_assessment" : "High",
+                    "manager_assessment": "High"
+                }
+            },
+            {
+                "skill" : "FinOps",
+                "level" : {
+                    "skill_assessment" : "High",
+                    "manager_assessment": "High"
+                }
+            },
+            {
+                "skill" : "Cloud Migration",
+                "level" : {
+                    "skill_assessment" : "High",
+                    "manager_assessment": "High"
+                }
+            },
+            {
+                "skill" : "Azure",
+                "level" : {
+                    "skill_assessment" : "Medium",
+                    "manager_assessment": "Medium"
+                }
+            },
+            {
+                "skill" : "AWS",
+                "level" : {
+                    "skill_assessment" : "Medium",
+                    "manager_assessment": "Medium"
+                }
+            },
+            {
+                "skill" : "Cloud Security",
+                "level" : {
+                    "skill_assessment" : "Low",
+                    "manager_assessment": "Low"
+                }
+            }
+        ],
+        "certificates": [
+            {
+                "name": "DevOps Engineer Expert",
+                "provider": "Microsoft"
+            },
+            {
+                "name": "Az-104 (Administrator Associate)",
+                "provider": "Microsoft"
+            },
+            {
+                "name": "DevOps Engineer Expert",
+                "provider": "Microsoft"
+            }
+        ]
+    },
+    {
+        "avatar_url" : "https://th.bing.com/th/id/R.49376b553f3b5f5b67409592744e5579?rik=WzvpBRDluxLgBg&pid=ImgRaw&r=0",
+        "resource_name" : "Miss Edmond Weimann",
+        "resource_email" : "edmond.weimann@cloudeq.com",
+        "designation": "Front-end Developer",
+        "team" : "Observability",
+        "allocation" : {
+            "logged_hours" : 22,
+            "planned_hours" : 32,
+            "available_hours" : 8
+        },
+        "project_allocation": [
+            {
+                "project_name": "Renaissance",
+                "planned_hours": 20,
+                "logged_hours": 15
+            },
+            {
+                "project_name": "FinOps",
+                "planned_hours": 10,
+                "logged_hours": 5
+            },
+            {
+                "project_name": "Gladarma",
+                "planned_hours": 2,
+                "logged_hours": 2
+            }
+        ],
+        "skills" : [
+            {
+                "skill" : "Automation",
+                "level" : {
+                    "skill_assessment" : "High",
+                    "manager_assessment": "High"
+                }
+            },
+            {
+                "skill" : "Observability",
+                "level" : {
+                    "skill_assessment" : "High",
+                    "manager_assessment": "High"
+                }
+            },
+            {
+                "skill" : "FinOps",
+                "level" : {
+                    "skill_assessment" : "High",
+                    "manager_assessment": "High"
+                }
+            },
+            {
+                "skill" : "Cloud Migration",
+                "level" : {
+                    "skill_assessment" : "High",
+                    "manager_assessment": "High"
+                }
+            },
+            {
+                "skill" : "Azure",
+                "level" : {
+                    "skill_assessment" : "Medium",
+                    "manager_assessment": "Medium"
+                }
+            },
+            {
+                "skill" : "AWS",
+                "level" : {
+                    "skill_assessment" : "Medium",
+                    "manager_assessment": "Medium"
+                }
+            },
+            {
+                "skill" : "Cloud Security",
+                "level" : {
+                    "skill_assessment" : "Low",
+                    "manager_assessment": "Low"
+                }
+            }
+        ],
+        "certificates": [
+            {
+                "name": "DevOps Engineer Expert",
+                "provider": "Microsoft"
+            },
+            {
+                "name": "Az-104 (Administrator Associate)",
+                "provider": "Microsoft"
+            },
+            {
+                "name": "DevOps Engineer Expert",
+                "provider": "Microsoft"
+            }
+        ]
+    },
+    {
+        "avatar_url" : "https://th.bing.com/th/id/R.49376b553f3b5f5b67409592744e5579?rik=WzvpBRDluxLgBg&pid=ImgRaw&r=0",
+        "resource_name" : "Alfreds",
+        "resource_email" : "alfreds@cloudeq.com",
+        "designation": "Full Stack Developer",
+        "team" : "Observability",
+        "allocation" : {
+            "logged_hours" : 22,
+            "planned_hours" : 32,
+            "available_hours" : 8
+        },
+        "project_allocation": [
+            {
+                "project_name": "Renaissance",
+                "planned_hours": 20,
+                "logged_hours": 15
+            },
+            {
+                "project_name": "FinOps",
+                "planned_hours": 10,
+                "logged_hours": 5
+            }
+        ],
+        "skills" : [
+            {
+                "skill" : "Reactjs",
+                "level" : {
+                    "skill_assessment" : "High",
+                    "manager_assessment": "High"
+                }
+            },
+            {
+                "skill" : "Nodejs",
+                "level" : {
+                    "skill_assessment" : "High",
+                    "manager_assessment": "High"
+                }
+            },
+            {
+                "skill" : "Python",
+                "level" : {
+                    "skill_assessment" : "High",
+                    "manager_assessment": "High"
+                }
+            },
+            {
+                "skill" : "JavaScript",
+                "level" : {
+                    "skill_assessment" : "High",
+                    "manager_assessment": "High"
+                }
+            },
+            {
+                "skill" : "Azure",
+                "level" : {
+                    "skill_assessment" : "Medium",
+                    "manager_assessment": "Medium"
+                }
+            },
+            {
+                "skill" : "AWS",
+                "level" : {
+                    "skill_assessment" : "Medium",
+                    "manager_assessment": "Medium"
+                }
+            }
+        ],
+        "certificates": [
+            {
+                "name": "Az-104 (Administrator Associate)",
+                "provider": "Microsoft"
+            },
+            {
+                "name": "Azure Fundamentals Az-900",
+                "provider": "Microsoft"
+            }
+        ]
+    }    
+]
