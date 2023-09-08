@@ -2,15 +2,9 @@ import React, { useState, useEffect, useRef } from "react";
 import { FaCheck } from "react-icons/fa";
 import { ImCross } from "react-icons/im";
 import { BiSolidDownload } from "react-icons/bi";
-// import DatePicker from "react-datepicker";
-// import "react-datepicker/dist/react-datepicker.css";
-// import { Calendar } from 'react-date-range';
-
-// import {React,  useState } from 'react';
-// import { DateRangePicker } from 'react-date-range';
 import { DateRangePicker, DatePicker } from "react-date-range";
-import "react-date-range/dist/styles.css"; // import the styles
-import "react-date-range/dist/theme/default.css"; // import the theme styles
+import "react-date-range/dist/styles.css";
+import "react-date-range/dist/theme/default.css";
 
 import "./UserTable.css";
 import html2pdf from "html2pdf.js";
@@ -23,39 +17,15 @@ function UserTable() {
   const [data, setData] = useState([]);
   const [modal, setModal] = useState(false);
   const [selectedRowIndex, setSelectedRowIndex] = useState(null);
-  // const handleSelect = (date) => {
-  //   console.log(date); // native Date object
-  // };
-
-  // const [selectedDate, setSelectedDate] = useState([
-  //   {
-  //     startDate: new Date(),
-  //     endDate: new Date(),
-  //     key: 'selection',
-  //   },
-  // ]);
-
-  // const handleSelect = (ranges) => {
-  //   // ranges will contain the selected date range
-  //   setSelectedDate([ranges.selection]);
-  // };
-
   const [selectedDate, setSelectedDate] = useState(new Date());
   const [calendarVisible, setCalendarVisible] = useState(false);
-
-  const handleDateSelect = (date) => {
-    setSelectedDate(date.selection.startDate);
-    setCalendarVisible(false); // Close the calendar after selecting a date
-  };
 
   useEffect(() => {
     const fetchData = async () => {
       try {
         const response = await fetch("http://172.31.0.254:8088");
-
         const jsonData = await response.json();
-
-        setData(jsonData.data); //it simply change json to
+        setData(jsonData.data);
       } catch (error) {
         console.error("Error fetching data:", error);
       }
@@ -79,7 +49,6 @@ function UserTable() {
 
   const toggleModal = (index) => {
     setSelectedRowIndex(index);
-
     setModal(!modal);
   };
 
@@ -97,14 +66,31 @@ function UserTable() {
     }
 
     setSelectedRowIndex(null);
-
     toggleModal();
   };
 
   const HandleDownloadButton = () => {
     const element = document.getElementById("table-to-pdf");
-
     html2pdf().from(element).save("table.pdf");
+  };
+
+  useEffect(() => {
+    const closeCalendarOnOutsideClick = (e) => {
+      if (calendarVisible && !e.target.closest(".calendar-container")) {
+        setCalendarVisible(false);
+      }
+    };
+
+    document.addEventListener("mousedown", closeCalendarOnOutsideClick);
+
+    return () => {
+      document.removeEventListener("mousedown", closeCalendarOnOutsideClick);
+    };
+  }, [calendarVisible]);
+
+  const handleDateSelect = (date) => {
+    setSelectedDate(date.selection.startDate);
+    setCalendarVisible(false); // Close the calendar after selecting a date
   };
 
   return (
@@ -114,9 +100,7 @@ function UserTable() {
           <BiSolidDownload /> Download pdf
         </button>
       </div>
-
       <br />
-
       <div style={{ marginBottom: "20px" }} id="table-to-pdf">
         <div
           style={{
@@ -129,21 +113,27 @@ function UserTable() {
         >
           <div>
             <div style={{ position: "absolute", zIndex: "2" }}>
-              <button className="calendarbutton" onClick={() => setCalendarVisible(!calendarVisible)}>Click here to {calendarVisible ? "close" : "open"} the calendar</button>
-              <h4>Selected Date: {selectedDate.toDateString()}</h4>
+              <button className="calendarbutton" onClick={() => setCalendarVisible(!calendarVisible)}>
+                {/* Click here to {calendarVisible ? "close" : "open"} the calendar */}
+                Calendar
+              </button>
+              {/* <h4>Selected Date: {selectedDate.toDateString()}</h4> */}
+              <h4>{selectedDate.toDateString()}</h4>
               {calendarVisible && (
-                <DateRangePicker
-                  onChange={handleDateSelect}
-                  months={1} // Set the number of months displayed in the calendar
-                  direction="vertical" // Adjust the direction as needed
-                  ranges={[
-                    {
-                      startDate: selectedDate,
-                      endDate: selectedDate,
-                      key: "selection",
-                    },
-                  ]}
-                />
+                <div className="calendar-container">
+                  <DateRangePicker
+                    onChange={handleDateSelect}
+                    months={1}
+                    direction="vertical"
+                    ranges={[
+                      {
+                        startDate: selectedDate,
+                        endDate: selectedDate,
+                        key: "selection",
+                      },
+                    ]}
+                  />
+                </div>
               )}
             </div>
           </div>
@@ -152,9 +142,8 @@ function UserTable() {
             <h4>Total Hours: {totalHours}</h4>
           </div>
         </div>
-
         <table style={{ zIndex: "39" }} className="table" ref={tableRef}>
-          <tr style={{ backgroundColor: "#D9D9DC" }}>
+        <tr style={{ backgroundColor: "#D9D9DC" }}>
             <th>Tickets</th>
             <th>Title</th>
             <th>Discriptions</th>
@@ -176,7 +165,7 @@ function UserTable() {
                 {e.status === "approved" ? (
                   <div id="approve">Approved</div>
                 ) : e.status === "notapproved" ? (
-                  <div id="notapprove">Not Approved</div>
+                  <div id="notapprove">Updated</div>
                 ) : (
                   <>
                     <button
