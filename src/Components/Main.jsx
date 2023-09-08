@@ -24,8 +24,7 @@ export const Main = () => {
             <div>
                 <div>
                     <Navbar />
-                    <div style={{ marginTop: "100px", marginLeft: "250px", marginRight: "35px" }}>
-                        {/* <Search /> */}
+                    <div style={{ marginTop: "80px", marginLeft: "230px", marginRight: "35px" }}>
                         <UserTable />
                     </div>
                 </div>
